@@ -1,0 +1,14 @@
+/run/media/tryfemy/TRY/Project/ASP Web/trySample/bin/Release/netcoreapp2.2/trySample.deps.json
+/run/media/tryfemy/TRY/Project/ASP Web/trySample/bin/Release/netcoreapp2.2/trySample.runtimeconfig.json
+/run/media/tryfemy/TRY/Project/ASP Web/trySample/bin/Release/netcoreapp2.2/trySample.runtimeconfig.dev.json
+/run/media/tryfemy/TRY/Project/ASP Web/trySample/bin/Release/netcoreapp2.2/trySample.dll
+/run/media/tryfemy/TRY/Project/ASP Web/trySample/bin/Release/netcoreapp2.2/trySample.pdb
+/run/media/tryfemy/TRY/Project/ASP Web/trySample/obj/Release/netcoreapp2.2/trySample.csprojAssemblyReference.cache
+/run/media/tryfemy/TRY/Project/ASP Web/trySample/obj/Release/netcoreapp2.2/trySample.csproj.CoreCompileInputs.cache
+/run/media/tryfemy/TRY/Project/ASP Web/trySample/obj/Release/netcoreapp2.2/trySample.RazorAssemblyInfo.cache
+/run/media/tryfemy/TRY/Project/ASP Web/trySample/obj/Release/netcoreapp2.2/trySample.RazorAssemblyInfo.cs
+/run/media/tryfemy/TRY/Project/ASP Web/trySample/obj/Release/netcoreapp2.2/trySample.AssemblyInfoInputs.cache
+/run/media/tryfemy/TRY/Project/ASP Web/trySample/obj/Release/netcoreapp2.2/trySample.AssemblyInfo.cs
+/run/media/tryfemy/TRY/Project/ASP Web/trySample/obj/Release/netcoreapp2.2/trySample.RazorTargetAssemblyInfo.cache
+/run/media/tryfemy/TRY/Project/ASP Web/trySample/obj/Release/netcoreapp2.2/trySample.dll
+/run/media/tryfemy/TRY/Project/ASP Web/trySample/obj/Release/netcoreapp2.2/trySample.pdb
