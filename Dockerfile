@@ -8,4 +8,4 @@ RUN dotnet restore
 # copy and build everything else
 COPY . ./
 RUN dotnet publish -c Release -o out
-ENTRYPOINT ["dotnet", "out/trySample.dll"]
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet out/trySample.dll
