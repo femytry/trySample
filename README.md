@@ -2,10 +2,16 @@
 
 Just a sample from .net core web api
 
-To try this sample do this:
+## How To run
 
--MIGRATE EF CORE and UPDATE DATABASE
+First Migrate Database
+```bash
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+```
 
--BUILD PROJECT
-
--RUN
+Then Build & Run Project
+```bash
+dotnet build
+dotnet run
+```
