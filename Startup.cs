@@ -12,6 +12,9 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
 
+using trySample.Helpers;
+using Microsoft.EntityFrameworkCore;
+
 namespace trySample
 {
     public class Startup
@@ -31,6 +34,11 @@ namespace trySample
             {
                 c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
             });
+
+            var connection = "server=<YOUR SERVER HOST>;port=<DB PORT>;database=<YOUR DB NAME>;uid=<YOUR DB USERNAME>;password=<THE DB PASSWORD>";
+            services.AddDbContext<MyDbContext>(opt => opt.UseMySql(connection));
+            // Automatically perform database migration
+            services.BuildServiceProvider().GetService<MyDbContext>().Database.Migrate();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
