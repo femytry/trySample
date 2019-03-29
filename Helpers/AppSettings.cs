@@ -1,0 +1,7 @@
+namespace trySample.Helpers
+{
+    public class AppSettings
+    {
+        public string Secret { get; set; }
+    }
+}
